@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item_one"
+        android:icon="@drawable/undo_icon"
+        android:title="Undo">
+    </item>
+    <item
+        android:id="@+id/item_two"
+        android:icon="@drawable/redo_icon"
+        android:title="Redo">
+    </item>
+    <item
+        android:id="@+id/item_three"
+        android:icon="@drawable/delete_icon"
+        android:title="Delete Selected">
+    </item>
+    <item
+        android:id="@+id/item_four"
+        android:icon="@drawable/unselect_icon"
+        android:title="Unselect">
+    </item>
+      <item
+        android:id="@+id/item_five"
+        android:icon="@drawable/width_icon"
+        android:title="Change width">
+    </item>
+      <item
+        android:id="@+id/item_six"
+        android:icon="@drawable/color_icon"
+        android:title="Select Color">
+    </item>
+      <item
+        android:id="@+id/item_seven"
+        android:icon="@drawable/annotation_icon"
+        android:title="Set Annotation">
+    </item>
+     <item
+        android:id="@+id/item_ground"
+        android:icon="@drawable/background_icon"
+        android:title="Select back groundcolor">
+    </item>
+     <item
+        android:id="@+id/item_export_with_stamps"
+        android:icon="@drawable/geometry_icon"
+        android:title="Export Geomteries with time stamps">
+    </item>
+     <item
+        android:id="@+id/item_export_without_stamps"
+        android:icon="@drawable/geometry_icon"
+        android:title="Export Geomteries without time stamps">
+    </item>
+      <item
+        android:id="@+id/item_about"
+        android:icon="@drawable/about_icon"
+        android:title="About">
+    </item>
+</menu>

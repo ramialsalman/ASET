@@ -1,0 +1,74 @@
+old main layout
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/button1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+  
+
+
+    <com.coboltforge.slidemenu.SlideMenu
+        android:id="@+id/slideMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:orientation="vertical" >
+
+
+
+            <ImageButton
+                android:id="@+id/ImageButton01"
+                android:layout_width="wrap_content"
+                android:layout_height="64dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/undo_icon" />
+
+
+             <ImageButton
+                 android:id="@+id/ImageButton02"
+                 android:layout_width="wrap_content"
+                 android:layout_height="64dp"
+                 android:scaleType="fitCenter"
+                 android:src="@drawable/redo_icon" />
+
+              <ImageButton
+    			android:id="@+id/ImageButton03"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:src="@drawable/ic_launcher" />
+              <ImageButton
+    			android:id="@+id/ImageButton04"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:src="@drawable/ic_launcher" />
+              <ImageButton
+    			android:id="@+id/ImageButton05"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:src="@drawable/ic_launcher" />
+              <ImageButton
+    			android:id="@+id/ImageButton06"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:src="@drawable/ic_launcher" />
+           	  <ImageButton
+    			android:id="@+id/ImageButton07"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:src="@drawable/ic_launcher" />
+
+        </LinearLayout>
+    </ScrollView>
+    
+     
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jo.edu.just"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/paint_icon"
+        android:label="@string/app_name" >
+        <activity
+            android:label="ASET"
+            android:name=".MainContainer" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.Dialog"
+            android:label="Line Width"
+            android:name=".WidthSelect" >
+            <intent-filter >
+                <action android:name="jo.edu.just.WidthSelect" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.Dialog"
+            android:label="Object Notation"
+            android:name=".TextNotation" >
+            <intent-filter >
+                <action android:name="jo.edu.just.TextNotation" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.Dialog"
+            android:label="Color Pick"
+            android:name=".ColorDialog" >
+            <intent-filter >
+                <action android:name="jo.edu.just.Helpers.ColorDialog" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+    </application>
+	<uses-permission android:name="android.permission.VIBRATE" />
+</manifest>
